@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script defer src="app.js"></script> -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="heading">
+        <p class="info">Your Result</p>
+        <div class="circle">
+          <div class="degree">76</div>
+          <div class="percent">of 100</div>
+        </div>
+        <div class="message">
+          <h1>Great</h1>
+          <p class="info">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="summary">
+        <h2>Summary</h2>
+
+        <div class="sec reaction">
+          <span class="name"
+            ><img src="./assets/images/icon-reaction.svg" alt="" />
+            <span> Reaction</span></span
+          >
+          <span class="score"><span class="user-score">80</span> / 100</span>
+        </div>
+        <div class="sec memory">
+          <span class="name"
+            ><img src="./assets/images/icon-memory.svg" alt="" />
+            <span> Memory</span></span
+          >
+          <span class="score"><span class="user-score">92</span> / 100</span>
+        </div>
+
+        <div class="sec verbal">
+          <span class="name"
+            ><img src="./assets/images/icon-verbal.svg" alt="" />
+            <span> Verbal</span></span
+          >
+          <span class="score"><span class="user-score">61</span> / 100</span>
+        </div>
+
+        <div class="sec visual">
+          <span class="name"
+            ><img src="./assets/images/icon-visual.svg" alt="" />
+            <span> Visual</span></span
+          >
+          <span class="score"><span class="user-score">72</span> / 100</span>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/ahmed-shahin-64ba80256/"
+        target="_blank"
+        >Ahmed Shahin</a
+      >.
+    </div>
+  </body>
+</html>
